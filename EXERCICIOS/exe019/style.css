@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+body {
+    background-color:rgba(135, 242, 206, 0.885);
+    font: normal normal 16px arial;
+    text-align: justify;
+}
+h1 {
+    color: rgb(214, 100, 59);
+}
+h1#principal {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(81, 70, 7);
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(220, 20, 60);
+}
+.basico {
+    background-color: rgba(255, 202, 182, 0.797);
+    padding: 20px;
+    
+}
+
+.inter {
+    background-color: darkblue;
+    padding: 10px;
+    width: 300px;
+}
+
+.avançado {
+    background-color: chartreuse;
+}
+.center {
+    text-align: center;
+}
