@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabela</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      caption > tr {
+        text-align: center;
+      }
+      thead {
+        text-align: center;
+        font-size: 1.2em;
+      }
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ecercício de Tabelas</h1>
+
+    <table>
+      <caption>
+        <tr>
+          Filmes Favoritos
+        </tr>
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col">Grupos</th>
+          <th colspan="1" scope="col">Nomes</th>
+          <th colspan="3" scope="rowgroup">Filmes</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th rowspan="3" scope="rowgroup">Mulheres</th>
+          <td>Ana Maria Santos</td>
+          <td>Alien</td>
+          <td>Rambo</td>
+          <td>Vingadores</td>
+        </tr>
+
+        <tr>
+          <td>Beatris Souza</td>
+          <td>Hulk</td>
+          <td>Inceotion</td>
+          <td>Batman</td>
+        </tr>
+
+        <tr>
+          <td>Cláudia Melo</td>
+          <td>Oblivion</td>
+          <td>Matrix</td>
+          <td>Big Hero</td>
+        </tr>
+
+        <tr>
+          <th rowspan="3" scope="rowgroup">Homens</th>
+          <td>Bruno Mendonça</td>
+          <td>Intocáfeis</td>
+          <td>Amnési</td>
+          <td>Gladiador</td>
+        </tr>
+
+        <tr>
+          <td>Daniel Mendonça</td>
+          <td>Wall-E</td>
+          <td>Oldboy</td>
+          <td>Dangal</td>
+        </tr>
+        <tr>
+          <td>Fabiano Mota</td>
+          <td>Dtar Wars 5</td>
+          <td>Taxi Driver</td>
+          <td>Toy story</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
